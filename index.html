@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="logo-head between">
+    <img class=" logo" src="images/logo.svg" alt="">
+    <button class="free-btn">
+      Try it Free
+    </button>
+  </header>
+  <main>
+    <!-- top -->
+    <section class="">
+      <h1 class="top-head"> Build The Community Your Fans Will Love
+      </h1>
+      <p class="top-text"> Huddle re-imagines the way we build communities. You have a voice, but so does
+        your audience. Create connections with your users as you engage in genuine discussion.
+      </p>
+      <div class="center">
+        <button class="primary-btn"> Get Started For Free
+        </button>
+      </div>
+    </section>
+    <!-- screen-mockups -->
+    <section>
+      <div class="center screen">
+        <img class="mockup-img" src="images/screen-mockups.svg" alt="">
+      </div>
+      <div class="showcase">
+        <div>
+          <img class="show-img" src="images/icon-communities.svg" alt="">
+          <p class="show-digit"> 1.4k+
+          </p>
+          <p class="show-text"> Communities Formed
+          </p>
+        </div>
+        <div>
+          <img class="show-img" src="images/icon-messages.svg" alt="">
+          <p class="show-digit digit"> 2.7m+
+          </p>
+          <p class="show-text center text"> Messages Sent
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- flex -->
+    <section class="services">
+      <!-- grow -->
+      <div class="pale-blue between">
+        <img class="pale-blue-top hidden" src="images/bg-section-top-desktop-1.svg" alt="">
+        <img class="mobile-top-1 " src="images/bg-section-top-mobile-1.svg" alt="">
+        <img class="pale-blue-bottom hidden" src="images/bg-section-bottom-desktop-1.svg" alt="">
+        <img class="mobile-bottom-1" src="images/bg-section-bottom-mobile-1.svg" alt="">
+        <div class="grow">
+          <h2 class="grow-head"> Grow Together
+          </h2>
+          <p class="grow-text"> Generate meaningful discussions with your audience and build a strong, loyal community.
+            Think of the insightful conversations you miss out on with a feedback form.
+          </p>
+        </div>
+        <img class="grow-image" src="images/illustration-grow-together.svg" alt="">
+      </div>
+      <!-- flow -->
+      <div class="white">
+        <div class="flow">
+          <h2 class="flow-head"> Flowing Conversations
+          </h2>
+          <p class="flow-text"> You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+            just-in-time loading for a more natural flow.
+          </p>
+        </div>
+        <img class="flow-image" src="images/illustration-flowing-conversation.svg" alt="">
+      </div>
+      <!-- user -->
+      <div class="pale-blue between user">
+        <img class="blue-top hidden" src="images/bg-section-top-desktop-2.svg" alt="">
+        <img class="mobile-top-2" src="images/bg-section-top-mobile-2.svg" alt="">
+        <img class="blue-bottom hidden" src="images/bg-section-bottom-desktop-2.svg" alt="">
+        <img class="mobile-bottom-2" src="images/bg-section-bottom-mobile-2.svg" alt="">
+        <div class="grow">
+          <h2 class="grow-head"> Your Users
+          </h2>
+          <p class="grow-text"> It takes no time at all to integrate Huddle with your app's authentication solution.
+            This means,
+            once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+        <img class="user-image" src="images/illustration-your-users.svg" alt="">
+      </div>
+      <div class="center bottom">
+        <h2 class="bottom-head"> Ready To Build Your Community?
+        </h2>
+        <button class="primary-btn"> Get Started For Free
+        </button>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="between mobile-flex">
+        <img class="footer-top hidden" src="images/bg-footer-top-desktop.svg" alt="">
+        <img class="footer-top-mobile" src="images/bg-footer-top-mobile.svg" alt="">
+        <div class="contact">
+          <div class="logo-huddle">
+            <img class="msg" src="images/icon-messages copy.svg" alt="">
+            <h1 class="huddle">Huddle</h1>
+          </div>
+          <p class="huddle-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam,
+            hendrerit
+            lacinia
+            vestibulum a, ultrices quis sem.
+          </p>
+          <div class="flex">
+            <img class="icon" src="images/icon-phone.svg" alt="">
+            <p class="mob"> Phone: +1-543-123-4567
+            </p>
+          </div>
+          <div class="flex">
+            <img class="icon" src="images/icon-email.svg" alt="">
+            <p class="mob"> example@huddle.com
+            </p>
+          </div>
+        </div>
+        <div class="form">
+          <h2 class="form-head"> Newsletter
+          </h2>
+          <p class="form-content"> To recieve tips on how to grow your community, sign up to our weekly newsletter.
+            We’ll
+            never
+            send you spam or pass on your email address
+          </p>
+          <div>
+            <form class=" between column" action="">
+              <div>
+                <label class="hide" for="email">email</label>
+                <input type="email" id="email" name="email">
+                <p class="hide">Check your email please</p>
+              </div>
+              <button class="subscribe-btn"> Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class=" social-icon between">
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+
+</html>
