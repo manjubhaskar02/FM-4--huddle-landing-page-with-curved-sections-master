@@ -360,11 +360,18 @@ select {
     border-radius: 4px;
     height: 26px;
 }
+.fa.fa-facebook-f:hover{
+    background-color: aqua;
+}
+
 
 .fa.fa-instagram {
     font-size: 34px;
     color: white;
     height: 26px;
+}
+.fa.fa-instagram:hover{
+    color: aqua;
 }
 
 .fa.fa-twitter {
@@ -375,6 +382,10 @@ select {
     border-radius: 4px;
     height: 27px;
 }
+.fa.fa-twitter:hover{
+    background-color: aqua;  
+}
+
 
 .mobile-top-1,
 .mobile-bottom-1,

@@ -28,6 +28,8 @@ Users should be able to:
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/manjubhaskar02/FM3-testimonals-grid-section](https://github.com/manjubhaskar02/FM3-testimonals-grid-section)
+- Live Site URL: [https://manjubhaskar02.github.io/FM3-testimonals-grid-section/](https://manjubhaskar02.github.io/FM3-testimonals-grid-section/)
 
 ## My process
 
